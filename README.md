@@ -4,9 +4,9 @@ A simplistic implementation of minesweeper in python.
 
 ### Setup:
 
-Install pyglet:
+Install font:
 
-`py -m pip install pyglet`
+Usually this can be achieved by clicking on `mine-sweeper.ttf`
 
 Run the code:
 

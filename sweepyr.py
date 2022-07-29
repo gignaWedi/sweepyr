@@ -3,7 +3,6 @@ from tkinter.font import Font
 from tkinter.messagebox import *
 from functools import partial
 import random
-import pyglet
 
 
 class Tile:
@@ -168,7 +167,6 @@ class Board:
 
 class Sweepyr:
     def __init__(self):
-        pyglet.font.add_file("mine-sweeper.ttf")
         
         # Window
         self.window = Tk()
